@@ -312,5 +312,92 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+
+}
+
+.holycell {
+    max-width: 1320px;
+    height: 935px;
+    margin: 0 auto;
+    margin-top: 220px;
+/* url(../resources/grpcell.png) , */
+    background:url(../resources/rect2.png) ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    border-radius: 16px;
+    display: flex;
+   
+    flex-direction: column;
+
+
+}
+
+.holycell-textarea {
+    background: #FFF;
+    height: 300px;
+    margin-top: 220px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.func {
+    color: #070211;
+    font-family: 'Inter';
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holi-span {
+    color: #F00;
+    font-style: normal;
+    justify-content: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.holi {
+    color: #070211;
+    font-family: 'Merriweather';
+    text-align: center;
+    margin: 0 auto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyp {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 32px;
+
+}
+.sideimg{
+   
+    justify-content: end;
+    align-items:end;
+    display: flex;
+    flex-direction: row;
     
+    position: relative;
+    margin-top: -695px;
+}
+.img50{
+    justify-content: end;
+    align-items:end;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: -395px;
+    margin-right: 300px;
 }
