@@ -320,14 +320,14 @@ body {
     height: 935px;
     margin: 0 auto;
     margin-top: 220px;
-/* url(../resources/grpcell.png) , */
-    background:url(../resources/rect2.png) ;
+    /* url(../resources/grpcell.png) , */
+    background: url(../resources/rect2.png);
     background-position: bottom;
     background-repeat: no-repeat;
 
     border-radius: 16px;
     display: flex;
-   
+
     flex-direction: column;
 
 
@@ -382,22 +382,94 @@ body {
     line-height: 32px;
 
 }
-.sideimg{
-   
+
+.sideimg {
+
     justify-content: end;
-    align-items:end;
+    align-items: end;
     display: flex;
     flex-direction: row;
-    
+
     position: relative;
     margin-top: -695px;
 }
-.img50{
+
+.img50 {
     justify-content: end;
-    align-items:end;
+    align-items: end;
     display: flex;
     flex-direction: row;
     position: relative;
     margin-top: -395px;
     margin-right: 300px;
+}
+
+.portfolio-product {
+    max-width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 220px;
+
+
+    background: #fefefe;
+    
+    border-radius: 16px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+}
+.pptext{
+    width: 896px;
+    padding-left: 20px;
+}
+.ppttl {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pph2 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ppp {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    
+}
+
+.ppimages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left:20px;
+}
+.ppimages-part1{
+    gap: 10px;
+}
+.ppimages-part2{
+    gap: 10px;
+}
+.item{
+    width: auto;
+}
+.item:hover{
+    transform: scale(1.05);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); ;
 }
